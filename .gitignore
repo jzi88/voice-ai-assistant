@@ -1,8 +1,8 @@
 .env
 
-*.wav
-*.webm
-*.mp3
+input.wav
+raw_input.webm
+replay.mp3
 
 __pycache__/
 .vscode/
