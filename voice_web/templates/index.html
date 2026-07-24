@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice AI Assistant</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="robot">
+
+        <div class="eyes">
+            <div class="eye"></div>
+            <div class="eye"></div>
+        </div>
+
+        <div class="mouth">
+            <div class="wave"></div>
+        </div>
+
+    </div>
+
+    <div class="reply-box">
+
+    <h2 id="replyTitle">
+        أنا هنا لمساعدتك
+    </h2>
+
+    <p id="replyText"></p>
+
+    </div>
+
+    
+
+    <div class="controls">
+
+        <button id="historyBtn" class="icon-btn">
+            💬
+        </button>
+
+        <button id="micBtn" class="mic-btn">
+            🎤
+        </button>
+
+    </div>
+
+
+
+<div id="chatSidebar" class="chat-sidebar">
+
+    <div class="chat-sidebar-header">
+        <h3>المحادثة</h3>
+        <button id="closeChatBtn" class="close-chat-btn">✕</button>
+    </div>
+
+    <div id="chatMessages" class="chat-messages"></div>
+
+    <div id="textArea">
+        <input
+            id="textInput"
+            type="text"
+            placeholder="اكتب رسالتك هنا..."
+        >
+
+        <button id="sendBtn">
+            إرسال
+        </button>
+    </div>
+
+</div>
+<div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
